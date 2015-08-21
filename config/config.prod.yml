@@ -1,0 +1,4 @@
+# Configuración de ambiente de producción
+imports:
+    - { resource: prod/parameters.yml }
+    - { resource: prod/services.yml }

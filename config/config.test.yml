@@ -1,0 +1,6 @@
+# Configuración de ambiente de desarrollo
+# Primero se carga la configuración de producción y luego la configuración de testing que la redefine
+imports:
+    - { resource: config.prod.yml }
+    - { resource: test/parameters.yml }
+    - { resource: test/services.yml }
