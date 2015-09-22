@@ -10,5 +10,5 @@ $rootPath = realpath(__DIR__."/..")."/";
 require_once $rootPath."vendor/autoload.php";
 
 $app = new \Resty\Application();
-$app->setEnv(\Resty\Environment::PROD);
+$app->setEnv(\Resty\Environment::DEV);
 $app->run();

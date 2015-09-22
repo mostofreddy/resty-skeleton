@@ -1,4 +1,4 @@
 Cache
 ====
 
-Directory for cache
+Directorio para almacenar todos los caches

@@ -1,7 +1,7 @@
 {
     "name": "restyphp/resty-skeleton",
     "description": "A Resty Framework skeleton application",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "keywords": ["skeleton", "framework", "microframework", "rest", "resty"],
     "homepage": "https://github.com/restyphp/resty-skeleton",
     "license": "MIT",
@@ -15,10 +15,15 @@
     ],
     "require": {
         "php": ">=5.5.0",
-        "restyphp/resty": "0.3.4"
+        "restyphp/resty": "0.4.1"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.*",
         "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resty\\Skeleton\\": "src/"
+        }
     }
 }

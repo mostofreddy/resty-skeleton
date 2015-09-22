@@ -3,4 +3,5 @@ RewriteEngine on
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
+RewriteRule ^(.*)$ index_dev.php?$1.php
 RewriteRule ^(.*)$ index.php?$1.php
