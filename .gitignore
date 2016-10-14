@@ -1,6 +1,4 @@
-/vendor/
-/cache/*
-!/cache/README.md
-/logs/*
-!/logs/README.md
-composer.lock
+vendor
+tests/coverage
+phpunit.xml
+phpcs.ruleset.xml
