@@ -8,6 +8,11 @@ Este es un esqueleto básico que te permitirá crear aplicaciones Restfull usand
 [![License](https://poser.pugx.org/restyphp/resty-skeleton/license?format=flat-square)](https://packagist.org/packages/restyphp/resty-skeleton)
 [![composer.lock](https://poser.pugx.org/restyphp/resty-skeleton/composerlock?format=flat-square)](https://packagist.org/packages/restyphp/resty-skeleton)
 
+Versión
+-------
+
+0.5.2
+
 Crear una aplicación con Resty
 ------------------------------
 
