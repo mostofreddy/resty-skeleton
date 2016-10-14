@@ -1,5 +1,0 @@
-# Rutas para los distintos endpoints
-# Rutas para los distintos endpoints
-home:
-    path: /
-    defaults: { _controller: Resty\Skeleton\WelcomeController::index }

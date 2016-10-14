@@ -20,4 +20,4 @@ Estructura propuesta para una aplicación Resty
 * logs: Directorio para almacenar todos los logs
 * src: Directorio para los fuentes de tu aplicación
 * tests: Directorio para tus tests
-* web: Directorio público
+* public: Directorio público
