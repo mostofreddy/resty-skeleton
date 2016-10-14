@@ -3,6 +3,11 @@ Resty Skeleton Application
 
 Este es un esqueleto básico que te permitirá crear aplicaciones Restfull usando Resty de forma rápida y sensilla.
 
+[![Latest Stable Version](https://poser.pugx.org/restyphp/resty-skeleton/v/stable?format=flat-square)](https://packagist.org/packages/restyphp/resty-skeleton)
+[![Total Downloads](https://poser.pugx.org/restyphp/resty-skeleton/downloads?format=flat-square)](https://packagist.org/packages/restyphp/resty-skeleton)
+[![License](https://poser.pugx.org/restyphp/resty-skeleton/license?format=flat-square)](https://packagist.org/packages/restyphp/resty-skeleton)
+[![composer.lock](https://poser.pugx.org/restyphp/resty-skeleton/composerlock?format=flat-square)](https://packagist.org/packages/restyphp/resty-skeleton)
+
 Crear una aplicación con Resty
 ------------------------------
 
