@@ -15,7 +15,7 @@ Resty usa [Composer](http://getcomposer.com) para crear un nuevo proyecto
 
     $ composer create-project restyphp/resty-skeleton path/to/install
 
-Simplemente reemplaza `path/to/install` por el directorio en donde quieras crear la aplicación.
+Simplemente reemplaza `path/to/install` por el directorio en donde quieras crear la aplicación y listo
 
 Estructura propuesta para una aplicación Resty
 ----------------------------------------------
