@@ -25,5 +25,16 @@
         "psr-4": {
             "Api\\": "src/"
         }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "ln -sf vendor/bin/resty"
+        ],
+        "post-install-cmd": [
+            "ln -sf vendor/bin/resty"
+        ],
+        "post-update-cmd": [
+            "ln -sf vendor/bin/resty"
+        ]
     }
 }
