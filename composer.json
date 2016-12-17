@@ -1,7 +1,7 @@
 {
     "name": "restyphp/resty-skeleton",
     "description": "A Resty Framework skeleton application",
-    "version": "0.5.2",
+    "version": "0.6.0",
     "keywords": ["skeleton", "framework", "microframework", "rest", "resty"],
     "homepage": "https://github.com/restyphp/resty-skeleton",
     "license": "MIT",
@@ -15,7 +15,8 @@
     ],
     "require": {
         "php": ">=7.0",
-        "restyphp/resty": "0.5.*"
+        "restyphp/resty": "dev-master",
+        "restyphp/slim-loggy": "0.1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "5.5.*",
@@ -23,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Api\\": "src/"
+            "Resty\\Api\\": "src/"
         }
     },
     "scripts": {
@@ -36,5 +37,9 @@
         "post-update-cmd": [
             "ln -sf vendor/bin/resty"
         ]
+    },
+    "suggest": {
+        "restyphp/slim-loggy": "Service provider para integracion con componente de logger Loggy (version: 0.1.*)",
+        "restyphp/slim-doctrine": "Service provider para integracion con Doctrine y DBAL (version: 0.1.*)"
     }
 }

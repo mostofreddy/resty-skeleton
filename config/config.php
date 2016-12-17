@@ -17,18 +17,39 @@
 
 $config = [];
 
-// Slim config
 $config['settings'] = [
+    // Slim configuration
     "displayErrorDetails" => true,
-    "routerCacheFile" => false,
-    "determineRouteBeforeAppMiddleware" => true
+    //"routerCacheFile" => false,
+    "determineRouteBeforeAppMiddleware" => true,
+
+    // meta de la app
+    "app" => [
+        "name" => "Resty App",
+        "version" => "0.1.0"
+    ],
+
+    // loger
+    "loggy" => [
+        "logger" => [
+            [
+                "level" => \Mostofreddy\Loggy\Logger::DEBUG,
+                "handler" => "\Mostofreddy\Loggy\Handler\File",
+                "config" => [
+                    "output" => realpath(__DIR__."/../logs").'/',
+                    'fileName' => "resty"
+                ]
+            ]
+        ]
+    ],
+
+    // comandos
+    "commands" => []
 ];
 
-// Base
-$config['app'] = [
-    "name" => "Medios-api",
-    "version" => "0.1.0"
+// Servicios
+$config['services'] = [
+    '\Resty\Slim\Providers\LoggyServiceProvider'
 ];
-
 
 return $config;
