@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "restyphp/resty": "dev-master",
+        "restyphp/resty": "0.7.*",
         "restyphp/slim-loggy": "0.1.*"
     },
     "require-dev": {
