@@ -1,7 +1,7 @@
 {
     "name": "restyphp/resty-skeleton",
     "description": "A Resty Framework skeleton application",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "keywords": ["skeleton", "framework", "microframework", "rest", "resty"],
     "homepage": "https://github.com/restyphp/resty-skeleton",
     "license": "MIT",

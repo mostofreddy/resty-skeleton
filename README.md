@@ -11,7 +11,7 @@ Este es un esqueleto básico que te permitirá crear aplicaciones Restfull usand
 Versión
 -------
 
-0.6.0
+0.6.1
 
 Crear una aplicación con Resty
 ------------------------------
