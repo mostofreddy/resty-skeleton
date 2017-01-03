@@ -17,7 +17,7 @@
 namespace Resty\Api\Welcome;
 
 // Resty
-use Resty\CommandController;
+use Resty\Action;
 // PSR - HTTP
 use \Psr\Http\Message\ResponseInterface as Response;
 use \Psr\Http\Message\RequestInterface as Request;
@@ -31,7 +31,7 @@ use \Psr\Http\Message\RequestInterface as Request;
  * @license   MIT License (http://www.opensource.org/licenses/mit-license.php)
  * @link      http://www.mostofreddy.com.ar
  */
-class IndexController extends CommandController
+class IndexController extends Action
 {
     /**
      * Invoca al comando

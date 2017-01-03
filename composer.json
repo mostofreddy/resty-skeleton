@@ -1,7 +1,7 @@
 {
     "name": "restyphp/resty-skeleton",
     "description": "A Resty Framework skeleton application",
-    "version": "0.6.1",
+    "version": "0.7.0",
     "keywords": ["skeleton", "framework", "microframework", "rest", "resty"],
     "homepage": "https://github.com/restyphp/resty-skeleton",
     "license": "MIT",
@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "restyphp/resty": "0.7.*",
+        "restyphp/resty": "0.8.*",
         "restyphp/slim-loggy": "0.1.*"
     },
     "require-dev": {
