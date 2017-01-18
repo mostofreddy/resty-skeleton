@@ -40,6 +40,7 @@
     },
     "suggest": {
         "restyphp/slim-loggy": "Service provider para integracion con componente de logger Loggy (version: 0.1.*)",
-        "restyphp/slim-doctrine": "Service provider para integracion con Doctrine y DBAL (version: 0.1.*)"
+        "restyphp/slim-doctrine": "Service provider para integracion con Doctrine y DBAL (version: 0.2.*)",
+        "restyphp/slim-request-time-middleware": "Middleware para obtener el tiempo que tarda un request (version: 0.1.*)"
     }
 }
