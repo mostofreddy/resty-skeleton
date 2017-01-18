@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "65031358e9e097ffbc4a4a7a4deb0cd4",
+    "hash": "168a7079c804bb490e688c7cb0122c1b",
     "content-hash": "e1cc6b940e3585790261d5f5146a19f4",
     "packages": [
         {
@@ -274,16 +274,16 @@
         },
         {
             "name": "restyphp/resty",
-            "version": "0.8.0",
+            "version": "0.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mostofreddy/resty.git",
-                "reference": "28dcdece79a5ffcdc3ba083574e66efbb3d944b2"
+                "reference": "5082d9bb6a04ab68a60f3200418969d69d63e027"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mostofreddy/resty/zipball/28dcdece79a5ffcdc3ba083574e66efbb3d944b2",
-                "reference": "28dcdece79a5ffcdc3ba083574e66efbb3d944b2",
+                "url": "https://api.github.com/repos/mostofreddy/resty/zipball/5082d9bb6a04ab68a60f3200418969d69d63e027",
+                "reference": "5082d9bb6a04ab68a60f3200418969d69d63e027",
                 "shasum": ""
             },
             "require": {
@@ -300,8 +300,9 @@
                 "squizlabs/php_codesniffer": "2.7.*"
             },
             "suggest": {
-                "restyphp/slim-doctrine": "Service provider para integracion con Doctrine y DBAL (version: 0.1.*)",
-                "restyphp/slim-loggy": "Service provider para integracion con componente de logger Loggy (version: 0.1.*)"
+                "restyphp/slim-doctrine": "Service provider para integracion con Doctrine y DBAL (version: 0.2.*)",
+                "restyphp/slim-loggy": "Service provider para integracion con componente de logger Loggy (version: 0.1.*)",
+                "restyphp/slim-request-time-middleware": "Middleware para obtener el tiempo que tarda un request (version: 0.1.*)"
             },
             "bin": [
                 "resty"
@@ -332,20 +333,20 @@
                 "rest",
                 "slim"
             ],
-            "time": "2017-01-03 23:43:19"
+            "time": "2017-01-18 11:36:23"
         },
         {
             "name": "restyphp/slim-json-handler-error",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mostofreddy/slim-json-handler-error.git",
-                "reference": "223f5e5e69fe6c102d00c5534e6e089d18c8886e"
+                "reference": "388567c8fec47456e48c9bbbc7c9602f658170fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mostofreddy/slim-json-handler-error/zipball/223f5e5e69fe6c102d00c5534e6e089d18c8886e",
-                "reference": "223f5e5e69fe6c102d00c5534e6e089d18c8886e",
+                "url": "https://api.github.com/repos/mostofreddy/slim-json-handler-error/zipball/388567c8fec47456e48c9bbbc7c9602f658170fc",
+                "reference": "388567c8fec47456e48c9bbbc7c9602f658170fc",
                 "shasum": ""
             },
             "require": {
@@ -388,7 +389,7 @@
                 "restyphp",
                 "slim"
             ],
-            "time": "2016-12-17 17:14:40"
+            "time": "2017-01-18 11:57:44"
         },
         {
             "name": "restyphp/slim-loggy",
@@ -632,16 +633,16 @@
         },
         {
             "name": "symfony/debug",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "9f923e68d524a3095c5a2ae5fc7220c7cbc12231"
+                "reference": "810ba5c1c5352a4ddb15d4719e8936751dff0b05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/9f923e68d524a3095c5a2ae5fc7220c7cbc12231",
-                "reference": "9f923e68d524a3095c5a2ae5fc7220c7cbc12231",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/810ba5c1c5352a4ddb15d4719e8936751dff0b05",
+                "reference": "810ba5c1c5352a4ddb15d4719e8936751dff0b05",
                 "shasum": ""
             },
             "require": {
@@ -685,7 +686,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-16 22:18:16"
+            "time": "2017-01-02 20:32:22"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2081,16 +2082,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.2.1",
+            "version": "v3.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "a7095af4b97a0955f85c8989106c249fa649011f"
+                "reference": "50eadbd7926e31842893c957eca362b21592a97d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/a7095af4b97a0955f85c8989106c249fa649011f",
-                "reference": "a7095af4b97a0955f85c8989106c249fa649011f",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/50eadbd7926e31842893c957eca362b21592a97d",
+                "reference": "50eadbd7926e31842893c957eca362b21592a97d",
                 "shasum": ""
             },
             "require": {
@@ -2132,7 +2133,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-12-10 10:07:06"
+            "time": "2017-01-03 13:51:32"
         },
         {
             "name": "webmozart/assert",
