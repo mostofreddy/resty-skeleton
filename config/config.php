@@ -26,7 +26,7 @@ $config['settings'] = [
     // meta de la app
     "app" => [
         "name" => "Resty App",
-        "version" => "0.1.0"
+        "version" => "0.7.3"
     ],
 
     // loger

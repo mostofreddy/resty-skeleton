@@ -44,8 +44,15 @@ class IndexController extends Action
      */
     public function __invoke(Request $req, Response $res, array $params = []):Response
     {
+        // Log
         $logger = $this->container->get('logger');
         $logger->debug("Welcome to Resty Api");
-        return $this->ok("Welcome to Resty Api");
+
+        // Return
+        return $res->ok(
+            [
+                'app' => $this->container['settings']['app']
+            ]
+        );
     }
 }
