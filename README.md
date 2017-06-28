@@ -11,10 +11,10 @@ Este es un esqueleto básico que te permitirá crear aplicaciones Restfull usand
 Versión
 -------
 
-0.7.3
+0.8.0
 
-Crear una aplicación con Resty
-------------------------------
+Crear una aplicación
+--------------------
 
 Resty usa [Composer](http://getcomposer.com) para crear un nuevo proyecto
 

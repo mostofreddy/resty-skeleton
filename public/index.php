@@ -19,15 +19,12 @@ require $path."/vendor/autoload.php";
 
 use Resty\Api;
 
-use \Psr\Http\Message\ServerRequestInterface as Request;
-use \Psr\Http\Message\ResponseInterface as Response;
-
 $configFilePath = realpath(__DIR__."/../config/").'/config.php';
 
 $config = include_once $configFilePath;
 
 $app = new Api($config);
 
-$app->get('/', '\Resty\Api\Welcome\IndexController');
+$app->get('/', '\App\Welcome\IndexController');
 
 $app->run();

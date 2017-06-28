@@ -14,7 +14,7 @@
  * @license   MIT License (http://www.opensource.org/licenses/mit-license.php)
  * @link      http://www.mostofreddy.com.ar
  */
-namespace Resty\Api\Welcome;
+namespace App\Welcome;
 
 // Resty
 use Resty\Action;
@@ -44,10 +44,6 @@ class IndexController extends Action
      */
     public function __invoke(Request $req, Response $res, array $params = []):Response
     {
-        // Log
-        $logger = $this->container->get('logger');
-        $logger->debug("Welcome to Resty Api");
-
         // Return
         return $res->ok(
             [

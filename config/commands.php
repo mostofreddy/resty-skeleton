@@ -15,20 +15,14 @@
  * @link      http://www.mostofreddy.com.ar
  */
 
-$config = [];
+$config = include_once 'config.php';
 
-$config['settings'] = [
-    "determineRouteBeforeAppMiddleware" => true,
-    // Display error (prod: false)
-    "displayErrorDetails" => true,
-    // Router cache (prod: cache/route.cache)
-    "routerCacheFile" => realpath(__DIR__."/..")."/cache/route.cache",
+// metadata (opcional)
 
-    // App metada
-    "app" => [
-        "name" => "Welcome to Resty",
-        "version" => "0.1.0"
-    ]
-];
+$config["name"] = "My app";
+$config["version"] = "0.1.2";
+
+// listado de comandos activos
+$config['commands'] = [];
 
 return $config;
